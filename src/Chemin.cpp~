@@ -71,26 +71,8 @@ void Chemin::partitionner(const string & ville, Chemin & cheminAvec,
 }
 
 void Chemin::importerCsv(istream & is) {
-  std::string villeA,villeB;
-  int dist;
+
     // TODO
-  /*
-    getline(is,villeA," ");
-  getline(is,villeB," ");
-  */
-   ;
-   while (is >> villeA >> villeB >> dist){
-
- 
-    routes_.push_back(Routes{villeA,villeB,dist});
-    }_
-  }
-
-  
-
- 
-
-
 
 }
 
